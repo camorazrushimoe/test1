@@ -9,7 +9,19 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    
+    @IBOutlet weak var ageTextField: UILabel!
+    @IBOutlet weak var heightTextField: UILabel!
+    @IBOutlet weak var weightTextField: UILabel!
+    @IBOutlet weak var sexSegmantedControl: UILabel!
+    @IBOutlet weak var resultsLabel: UILabel!
+    
+    //action button
+    @IBAction func calculateTapped(_ sender: Any) {
+        print(ageTextField)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
